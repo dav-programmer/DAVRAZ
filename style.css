@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+    /* header */
+
+header{
+    max-width: 1800px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.logo{
+    /* width: 100px;
+    height: 50px; */
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+
+    /* main */
+
+main{
+    max-width: 1800px;
+    height: auto;
+    margin: 30px auto;
+    padding-left: 90px;
+}
+
+.img{
+    width: 500px;
+    height: 500px;
+    transition: 1s ease-in;
+    margin: 5px;
+}
+
+.img:hover{
+    transform: rotate(360deg);
+    filter: saturate(10);
+    border-radius: 1650px;
+}
